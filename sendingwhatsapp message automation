@@ -1,0 +1,3 @@
+import pywhatkit
+pywhatkit.sendwhatmsg_instantly("enter your number", "hii")
+pywhatkit.sendwhatmsg_instantly("enter your number", "hii",14,58)
