@@ -1,0 +1,18 @@
+import time
+import pyttsx3
+from plyer import notification
+
+engine = pyttsx3.init()
+
+while True:
+    print("Please sip some water 💧")
+
+    notification.notify(
+        title="💧 Drink Water",
+        message="You need to drink water",
+    )
+
+    engine.say("Drink.water.now")
+    engine.runAndWait()
+
+    time.sleep(60)
